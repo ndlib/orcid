@@ -23,6 +23,6 @@ jobs:
       - name: Install proper bundler gem
         run: gem install bundler -v 1.17.3
       - name: Install Ruby gems
-        run: bundle install
+        run: bundle install --without headless debug
       - name: Run rake spec tasks
-        run: bundle exec rake spec
+        run: bundle exec rake spec:travis
