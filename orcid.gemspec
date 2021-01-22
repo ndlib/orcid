@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'headless'
   s.add_development_dependency 'webmock'
   s.add_development_dependency 'simplecov'
-  s.add_development_dependency 'rest_client'
+  s.add_development_dependency 'rest-client'
   s.add_development_dependency 'rspec-given'
   s.add_development_dependency 'rspec', '~>2.99'
   s.add_development_dependency 'rspec-mocks', '~>2.99'

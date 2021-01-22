@@ -1,4 +1,4 @@
-require 'rest_client'
+require 'rest-client'
 
 # This follows the instructions from:
 # http://support.orcid.org/knowledgebase/articles/179969-methods-to-generate-an-access-token-for-testing#curl
