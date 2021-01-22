@@ -25,8 +25,6 @@ jobs:
       - name: Install proper bundler gem
         run: gem install bundler -v 1.17.3
       - name: Install Ruby gems
-        run: |
-          gem install sqlite3
-          bundle install --without headless debug --gemfile gemfiles/rails4.1.gemfile
+        run: bundle install --without headless debug --gemfile gemfiles/rails4.1.gemfile
       - name: Run rake spec tasks
         run: bundle exec rake spec:travis
